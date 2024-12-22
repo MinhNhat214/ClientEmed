@@ -1,0 +1,114 @@
+.box {
+    position: relative;
+}
+.box-table-search {
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    .table-search {
+        background-color: #ffffff;
+        border: 1px solid rgb(203, 203, 203);
+        padding: 5px;
+    }
+}
+
+.label-table {
+    display: flex;
+    border-collapse: collapse;
+    div {
+        padding: 3px 5px;
+        font-size: 12px;
+        color: #0067ac !important;
+        background-color: #ebebeb !important;
+        font-weight: bold;
+        border: 1px solid silver;
+    }
+}
+.thdonthuoc {
+    display: flex;
+    div {
+        padding: 3px 5px;
+        font-size: 12px;
+        color: #0067ac !important;
+        background-color: #ebebeb !important;
+        font-weight: bold;
+        border: 1px solid silver;
+    }
+}
+.table-donthuoc {
+    z-index: 0;
+    .ant-table-body {
+        overflow-y: scroll !important;
+    }
+    .ant-table-body::-webkit-scrollbar {
+        display: none !important;
+    }
+    .ant-table-body {
+        scrollbar-width: none;
+    }
+}
+.h-max-donthuoc {
+    height: 294px;
+    .scroll {
+        overflow-y: scroll;
+        height: 230px;
+    }
+    .scroll::-webkit-scrollbar {
+        display: none;
+    }
+    .scroll {
+        scrollbar-width: none;
+    }
+}
+.div-box-search {
+    width: 700px;
+    .bg-active {
+        background-color: #0067ac;
+        color: #ffffff;
+    }
+    .bg-unactive {
+        background-color: #ffffff;
+        color: #000000;
+        &:hover {
+            border: 1px solid #0067ac;
+        }
+    }
+    .scroll-select {
+        overflow-y: scroll;
+        // height: fit-content;
+        max-height: 100px;
+
+    }
+    // .scroll-select::-webkit-scrollbar {
+    //     display: none;
+    // }
+    // .scroll-select {
+    //     scrollbar-width: none;
+    // }
+}
+.active{
+    background: #0067ac;
+    color: #ffffff;
+}
+.donthuoc-top {
+    margin: 0px 10px;
+}
+.donthuoc-top label{
+    margin-top: 4px;
+}
+.donthuoc-top .kb-checktoa{
+    margin-top: 5px;
+}
+.kb-checkintoa{
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.donthuoc-top .checkintoa-name{
+    margin-top: 7px;
+}
+.check-1{
+    margin-top: 0px;
+}
+

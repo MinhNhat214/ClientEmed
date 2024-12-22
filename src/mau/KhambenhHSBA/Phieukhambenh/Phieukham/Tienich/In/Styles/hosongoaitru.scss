@@ -1,0 +1,686 @@
+/*=============Phieu cong khai su dung thuoc ============*/
+@media print {
+    @page {
+        size: A4;
+        margin: 0.8rem 0;
+    }
+
+    header,
+    footer {
+        padding: 40px;
+    }
+
+
+}
+
+.inhosongoaitru {
+    padding: 10px;
+}
+
+.inhosongoaitru .header {
+    width: 100%;
+    display: flex;
+}
+
+.inhosongoaitru .header .header-left {
+    float: left;
+    width: 70%;
+}
+
+.inhosongoaitru .header .header-right {
+    float: right;
+    width: 30%;
+}
+
+.inhosongoaitru .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.inhosongoaitru .title-khoa {
+    text-align: center;
+}
+
+.inhosongoaitru .row-div {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.inhosongoaitru .row-hanhchinh {
+    position: relative;
+}
+
+.inhosongoaitru .row-hanhchinh .col {
+    float: left;
+}
+
+.inhosongoaitru .row-hanhchinh .hoten {
+    width: 55%;
+    position: relative;
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .hoten span {
+    float: left;
+    width: 38%;
+}
+
+.inhosongoaitru .row-hanhchinh .hoten span.ht {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #000;
+    width: 62%;
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .ngaysinh {
+    display: flex;
+    padding-left: 10px;
+    width: 40%;
+}
+
+.inhosongoaitru .row-hanhchinh .ngaysinh ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+
+.inhosongoaitru .row-hanhchinh .ngaysinh ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .row-hanhchinh .tuoi {
+    text-align: right;
+    width: 5%;
+
+}
+
+.inhosongoaitru .row-hanhchinh .tuoi ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .tuoi ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .row-hanhchinh .tuoi div {
+    position: absolute;
+    right: 0px;
+    top: 0px
+}
+
+.inhosongoaitru .hanhchinh {
+    font-weight: bold;
+}
+
+.inhosongoaitru .row-hanhchinh .gioitinh {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .nghenghiep {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1 {
+    float: left;
+}
+
+.inhosongoaitru .row-hanhchinh .col div.col-1 {
+    width: 40%;
+}
+
+.inhosongoaitru .row-hanhchinh .col ul.col-1 {
+    width: 60%;
+}
+
+.inhosongoaitru .row-hanhchinh .gioitinh ul li {
+    float: left;
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .gioitinh ul li span {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.inhosongoaitru .row-hanhchinh .nghenghiep ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.nn {
+    width: 30%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.nn-txt {
+    width: 50%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .nn-ma {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.position-row {
+    position: relative;
+}
+
+.inhosongoaitru .row-hanhchinh .col.dantoc {
+    width: 50%;
+    position: relative;
+}
+
+.inhosongoaitru .row-hanhchinh .col.quoctich {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .dantoc ul li,
+.inhosongoaitru .row-hanhchinh .quoctich ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+
+}
+
+.inhosongoaitru .row-hanhchinh .col .qt-ma,
+.inhosongoaitru .row-hanhchinh .col .ma-dt {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inhosongoaitru .row-hanhchinh .col .ma-dt {
+    right: 10px;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dt-txt {
+    width: 60%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dt {
+    width: 25%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.qt-txt {
+    width: 60%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.qt {
+    width: 25%;
+}
+
+
+.inhosongoaitru .row-hanhchinh .col.diachi {
+    width: 50%;
+    position: relative;
+}
+
+.inhosongoaitru .row-hanhchinh .col.xaphuong {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .xaphuong ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .row-hanhchinh .col .xp-ma {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dc-txt {
+    width: 75%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dc {
+    width: 25%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.xp-txt {
+    width: 60%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.xp {
+    width: 25%;
+}
+
+
+
+.inhosongoaitru .row-hanhchinh .col.quanhuyen {
+    width: 50%;
+    position: relative;
+
+}
+
+.inhosongoaitru .row-hanhchinh .col.thanhpho {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .quanhuyen ul li {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .row-hanhchinh .col .qh-ma {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.qh-txt {
+    width: 70%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.qh {
+    width: 30%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.tp-txt {
+    width: 65%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.tp {
+    width: 35%;
+}
+
+
+.inhosongoaitru .row-hanhchinh .col.noilamviec {
+    width: 40%;
+    position: relative;
+
+}
+
+.inhosongoaitru .row-hanhchinh .col.doituong {
+    width: 60%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.nlv-txt {
+    width: 62%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.nlv {
+    width: 38%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dtuong-txt {
+    width: 75%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dtuong {
+    width: 25%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dtuong-txt ul li {
+    float: left;
+    display: flex;
+    padding-left: 5px;
+    font-style: italic;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.dtuong-txt ul li span {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: flex;
+    margin-left: 2px;
+}
+
+
+.inhosongoaitru .row-hanhchinh .col.bhyt10 {
+    width: 50%;
+    position: relative;
+
+}
+
+.inhosongoaitru .row-hanhchinh .col.thebhyt10 {
+    width: 50%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.bhyt-txt {
+    width: 45%;
+    border-bottom: 1px dashed #000;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.bhyt {
+    width: 55%;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.thebhyt-txt {
+    width: 75%;
+    border: 1px solid #000;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .row-hanhchinh .col .col-1.thebhyt {
+    width: 25%;
+}
+
+.inhosongoaitru .row-hanhchinh .nguoinha .nguoinhal {
+    float: left;
+}
+
+.inhosongoaitru .row-hanhchinh .nguoinha .nguoinhal-txt span {
+    border-bottom: 1px dashed #000;
+    display: inline;
+
+}
+
+.inhosongoaitru .row-hanhchinh .denkhambenh .denkhambenhl {
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .denkhambenh .denkhambenhl span {
+    border-bottom: 1px dashed #000;
+    width: 60px;
+    display: flex;
+}
+
+.inhosongoaitru .row-hanhchinh .chuandoannoigt .chuandoannoigtl {
+    float: left;
+    width: 33%;
+}
+
+.inhosongoaitru .row-hanhchinh .chuandoannoigt .chuandoannoigtl-txt {
+    float: left;
+    border-bottom: 1px dashed #000;
+    width: 44%;
+}
+
+.inhosongoaitru .row-hanhchinh .chuandoannoigt ul li {
+    display: flex;
+    margin-left: 7px;
+}
+
+.inhosongoaitru .row-hanhchinh .chuandoannoigt ul li span {
+    border: 1px solid #000;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: flex;
+    margin-left: 2px;
+}
+
+.inhosongoaitru .row-hanhchinh .chuandoannoigt ul {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+}
+
+.inhosongoaitru .lydovaovien {
+    display: inline-block;
+    width: 100%;
+}
+
+.inhosongoaitru .lydovaovien .lydo {
+    float: left;
+    font-weight: bold;
+}
+
+.inhosongoaitru .hoibenh .namehoibenh {
+    font-weight: bold;
+}
+
+.inhosongoaitru .hoibenh .qtbenhly span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .hoibenh .tiensubenh .tiensubenh-name {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh {
+    position: relative;
+}
+
+.inhosongoaitru .khambenh .namekhambenh {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .toanthan span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .cacbophan span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .chisosos {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-style: italic;
+}
+
+.inhosongoaitru .khambenh .tomtatkq span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .chuandoanbd span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .daxuly span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .chuandoanravien span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .khambenh .chuandoanravien {
+    position: relative;
+}
+
+.inhosongoaitru .khambenh .chuandoanravien .machuandoan {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.inhosongoaitru .khambenh .chuandoanravien .machuandoan div {
+    border: 1px solid #000;
+    width: 5vw;
+    height: 2.5vw;
+}
+
+.inhosongoaitru .khambenh .dtnttungay span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .thongtinky {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+
+}
+
+.inhosongoaitru .thongtinky .giamdoc {
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+.inhosongoaitru .thongtinky .giamdoc .titlebs {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.inhosongoaitru .thongtinky .bacsi {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+.inhosongoaitru .thongtinky .bacsi .ngaythangnam {
+    font-style: italic;
+}
+
+.inhosongoaitru .thongtinky .bacsi .titlebs {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tile-tongketbenhan {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-1 {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-2 {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-3 .chuandoan {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-3 .benhicd {
+    position: relative;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-3 .mabenhicd {
+    position: absolute;
+    right: 0px;
+    top: 0px
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-3 .mabenhicd span {
+    border: 1px solid #000;
+    width: 5vw;
+    height: 2.5vw;
+    display: inline-block;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-4 span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-5 span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .tongketbenhan .tongketbenhan-6 span {
+    font-weight: bold;
+}
+
+.inhosongoaitru .hsphimanh {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #000;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l .name-hsphimanh {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l .hsphimanh-table .header-table {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l .hsphimanh-table .header-table li {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l .hsphimanh-table .bottom-table {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 1px dashed #000;
+    display: flex;
+    width: 100%;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-l .hsphimanh-table .bottom-table li {
+    width: 50%;
+    padding: 5px;
+    border-right: 1px solid #000;
+    float: left;
+    display: flex;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-c {
+    float: left;
+    width: 33.3%;
+    border-right: 1px solid #000;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-r {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.inhosongoaitru .hsphimanh .nguoighs {
+    text-align: center;
+    height: 150px;
+}
+
+.inhosongoaitru .hsphimanh .nguoighs-bt {
+    border-top: 1px solid #000;
+}
+
+.inhosongoaitru .hsphimanh .nguoighs .ng {
+    font-weight: bold;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-r .ngay {
+    font-style: italic;
+}
+
+.inhosongoaitru .hsphimanh .hsphimanh-r .bs {
+    font-weight: bold;
+    margin-top: 10px;
+}

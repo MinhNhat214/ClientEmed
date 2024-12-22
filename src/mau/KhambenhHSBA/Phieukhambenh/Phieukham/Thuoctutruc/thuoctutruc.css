@@ -1,0 +1,50 @@
+#selectToaMuaNgoai {
+    outline: none;
+    border: 1px solid #cacaca;
+}
+
+#selectToaMuaNgoai:hover {
+    border: 1px solid #4c8ff3;
+}
+
+/*------------------------------------------*/
+.react-combo-boxes-combobox {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 12px;
+}
+
+.react-combo-boxes-combobox__input {
+    width: 100%;
+    font-size: 12px;
+}
+
+.react-combo-boxes-combobox__listbox {
+    /*background: #4899e1 !important;*/
+    /*width: 50%;*/
+    position: absolute;
+    z-index: 1000;
+    font-size: 12px;
+}
+
+.react-combo-boxes-combobox__table {
+    background: #195d87;
+    /*border-radius: 5px;*/
+}
+
+.react-combo-boxes-combobox__table-row:hover .react-combo-boxes-combobox__table-cell {
+    background: #3b6bf4 !important;
+    cursor: pointer;
+}
+
+.react-combo-boxes-combobox__table-row {
+    border: 1px solid black;
+}
+
+.react-combo-boxes-combobox__table-cell {
+    background: #f8f8f8;
+    border: 1px solid #3b6bf4;
+    /*padding: 3px 10px;*/
+    padding: 0px 15px
+}

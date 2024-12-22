@@ -1,0 +1,32 @@
+.scroll {
+    overflow-y: scroll;
+    height: max-content;
+}
+// .scroll::-webkit-scrollbar {
+//     display: none;
+// }
+// .scroll {
+//     scrollbar-width: none;
+// }
+
+.title-highlight-note {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 1px;
+    margin: 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+.BienBangHoiChuan .ant-modal-header{ 
+    background: #e8e8e8 !important;
+    padding: 5px 10px;
+    height: auto !important;
+}
+.BienBangHoiChuan  .ant-modal-title{
+    width: 100%;
+}
+.BienBangHoiChuan  .btn-header{
+    float: right;
+}
+.BienBangHoiChuan  .title-header{
+    float: left;
+}

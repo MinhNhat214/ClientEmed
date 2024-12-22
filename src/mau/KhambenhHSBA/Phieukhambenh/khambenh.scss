@@ -1,0 +1,92 @@
+.color-icon-edit {
+    &.yellow {
+        svg {
+            color: #ffc107 !important;
+        }
+    }
+    &.red {
+        svg {
+            color: rgb(233, 58, 58) !important;
+        }
+    }
+    &.blue {
+        svg {
+            color: rgb(7, 63, 246) !important;
+        }
+    }
+    &.green {
+        svg {
+            color: rgb(9, 180, 49) !important;
+        }
+    }
+    &.black {
+        svg {
+            color: rgb(29, 29, 29) !important;
+        }
+    }
+}
+
+.khambenh-form-input-label {
+    width: 50px;
+}
+
+.tab-khambenh {
+    //tab
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+        color: #fff !important;
+        font-weight: bold;
+    }
+
+    .ant-tabs-tab.ant-tabs-tab-active {
+        background-color: #0067ac !important;
+        border-radius: 0px !important;
+    }
+    .ant-tabs-tab {
+        color: #0067ac !important;
+        border-radius: 0px !important;
+        border: 2px solid #0067ac !important;
+        padding: 0px 10px !important;
+        margin: 0px;
+    }
+    .ant-tabs-nav {
+        margin: 0px !important;
+    }
+}
+.khambenh-btn-icon {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+li.ant-dropdown-menu-item {
+    padding: 2px 10px !important;
+}
+.div-shadow.v5{
+    margin-top: 0.5rem;
+}
+.tiepnhan-congkham input{
+    height: 26px;
+}
+.tiepnhan-congkham .form-row {
+    height: 28px !important;
+}
+.pk-profile label{
+    margin-top: 5px;
+}
+.kb-loidan label{
+    height: auto !important;
+}
+
+.kb-checkintoa{
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.checkintoa-name{
+    margin-top: 2px;
+}
+.check-1{
+    margin-top: 0px;
+}

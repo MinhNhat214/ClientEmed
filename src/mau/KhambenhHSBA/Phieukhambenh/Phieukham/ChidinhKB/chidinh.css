@@ -1,0 +1,149 @@
+/*#selectCongKham {*/
+/*    outline: none;*/
+/*    border: 1px solid #cacaca;*/
+/*}*/
+
+/*#selectCongKham:hover {*/
+/*    border: 1px solid #4c8ff3;*/
+/*}*/
+
+/*!*------------------------------------------*!*/
+/*.react-combo-boxes-combobox {*/
+/*    width: 90%;*/
+/*    margin-bottom: 20px;*/
+/*    margin-top: 10px;*/
+/*    height: 12px;*/
+/*}*/
+
+/*.react-combo-boxes-combobox__input {*/
+/*    width: 100%;*/
+/*    font-size: 12px;*/
+/*}*/
+
+/*.react-combo-boxes-combobox__listbox {*/
+/*    !*background: #4899e1 !important;*!*/
+/*    !*width: 50%;*!*/
+/*    position: absolute;*/
+/*    z-index: 1000;*/
+/*    font-size: 12px;*/
+/*}*/
+
+/*.react-combo-boxes-combobox__table {*/
+/*    background: #195d87;*/
+/*    !*border-radius: 5px;*!*/
+/*}*/
+
+/*.react-combo-boxes-combobox__table-row:hover .react-combo-boxes-combobox__table-cell {*/
+/*    background: #3b6bf4 !important;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.react-combo-boxes-combobox__table-row {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+/*.react-combo-boxes-combobox__table-cell {*/
+/*    background: #f8f8f8;*/
+/*    border: 1px solid #3b6bf4;*/
+/*    !*padding: 3px 10px;*!*/
+/*    padding: 0px 15px*/
+/*}*/
+
+/*!*----------------------------------*!*/
+
+/* Container styling */
+.combobox-container {
+    position: relative;
+    width: 100%;
+    /*max-width: 800px;*/
+    /*margin: 0 auto;*/
+}
+
+/* Input styling */
+.input-container {
+    position: relative;
+    display: flex;
+    gap: 0px 10px;
+}
+
+/*.input-field {*/
+/*    width: 100%;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    padding: 8px;*/
+/*    font-size: 14px;*/
+/*    outline: none;*/
+/*}*/
+
+/*.input-field:focus {*/
+/*    border-color: #007bff;*/
+/*    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);*/
+/*}*/
+
+.dropdown-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    position: absolute;
+    width: 80%;
+    margin-left: 85px;
+    /*background: #ebebeb;*/
+    background: #ffffff;
+    border: 1px solid #b6b6b6;
+    border-radius: unset;
+    /*margin-top: 4px;*/
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+
+}
+
+.dropdown-table {
+    /*width: 80%;*/
+    width: 100%;
+    /*margin: 0px 10px;*/
+    border-collapse: collapse;
+}
+
+.no-results {
+    text-align: center;
+    /*padding: 8px;*/
+    color: #888;
+    font-size: 14px;
+}
+
+/* Row styling */
+.dropdown-row {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dropdown-row:hover,
+.focused-row {
+    background: #007bff;
+    color: #fff;
+}
+
+.dropdown-cell {
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-cell:last-child {
+    text-align: right;
+}
+.dropdown-menu {
+    display: block !important;
+    /*z-index: 10 !important;*/
+}
+

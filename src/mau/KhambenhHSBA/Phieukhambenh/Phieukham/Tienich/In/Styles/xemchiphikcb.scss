@@ -1,0 +1,84 @@
+.xemchiphikcb{
+    padding: 10px;
+}
+.xemchiphikcb .header-thongtin{
+    display: inline-block;
+    width: 100%;
+}
+.xemchiphikcb .header-thongtin .header-left{
+    float: left;
+    width: 70%;
+}
+.xemchiphikcb .header-thongtin .header-right{
+   float: right;
+    width: 30%;
+}
+.xemchiphikcb .title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.xemchiphikcb .hanhchinh .hanhchinh-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.xemchiphikcb .hanhchinh .item-hc{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px;
+    
+}
+.xemchiphikcb .hanhchinh .item-hc .col{
+   float: left;
+} 
+.xemchiphikcb .hanhchinh .item-hc .col.hoten{
+    width: 60%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.ngaysinh{
+    width: 25%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.gioitinh{
+    width: 15%;
+ }
+
+
+ .xemchiphikcb .hanhchinh .item-hc .col.doituong{
+    width: 25%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.mathe{
+    width: 37%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.giatri{
+    width: 38%;
+ } 
+
+ .xemchiphikcb .hanhchinh .item-hc .col.capcuu{
+    width: 20%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.dungtuyen{
+    width: 20%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.noichuyenden{
+    width: 20%;
+ } 
+ .xemchiphikcb .hanhchinh .item-hc .col.traituyen{
+    width: 40%;
+ }
+ .xemchiphikcb  .chiphikcb .title-b{
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.chiphikcb-table table{
+   width: 100%;
+}
+.chiphikcb-table table tr td{
+    border: 1px solid #ccc;
+    padding: 5px;
+
+}
+.chiphikcb-table table thead tr td{
+  text-align: center;
+  font-weight: bold;
+   
+}

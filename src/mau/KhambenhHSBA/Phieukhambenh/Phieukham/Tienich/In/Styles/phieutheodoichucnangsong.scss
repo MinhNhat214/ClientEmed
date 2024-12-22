@@ -1,0 +1,61 @@
+/*=============Phieu cong khai su dung thuoc ============*/
+@media print{  
+    @page {
+      size: A4;
+    }
+}
+.inphieutheodoichucnangsong {
+    padding: 10px;
+}
+.inphieutheodoichucnangsong .header{
+    width: 100%;
+    display: flex;
+}
+.inphieutheodoichucnangsong .header-content h1{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.inphieutheodoichucnangsong .header .header-left{
+    float: left;
+    width: 25%;
+}
+.inphieutheodoichucnangsong .header .header-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.inphieutheodoichucnangsong .header .header-right{
+    float: left;
+    width: 25%;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    font-size: 13px;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul li{
+    display: inline-block;
+    width: 100%;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul li div{
+    float: left;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul li div.hoten{
+    width: 60%;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul li div.tuoi{
+    width: 20%;
+}
+.inphieutheodoichucnangsong .thongtin-phieucongkhai ul li div.gioitinh{
+    width: 20%;
+}
+.inphieutheodoichucnangsong .ketquathuoccongkhai table{
+    width: 100%;
+}
+.inphieutheodoichucnangsong .ketquathuoccongkhai table tr td{
+    border: 1px solid #ccc;
+    padding: 6px;
+    vertical-align:middle;
+    text-align: center;
+}

@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+
+/*.form-row {*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.form-group label {
+    min-width: 40px;
+    margin:5px 0px;
+}
+
+.form-grid{
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 2px;
+    padding-left: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+textarea {
+    padding: 2px;
+    padding-left: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.tabs {
+    display: flex;
+    gap: 2px;
+    margin: 20px 0;
+}
+
+.tab {
+    padding: 8px 16px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: white;
+    border-bottom: 2px solid #0066cc;
+}
+
+.content-area {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-tabs {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 20px;
+}
+
+.sub-tab {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #0066cc;
+    cursor: pointer;
+}
+
+.sub-tab.active {
+    background: #0066cc;
+    color: white;
+}
+
+/*.medical-info {*/
+/*    display: grid;*/
+/*    grid-template-columns: 2fr 2fr 1fr;*/
+/*    gap: 20px;*/
+/*}*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    border: 1px solid #bfbdbd; /* Viền cho bảng */
+    overflow: hidden; /* Ẩn phần viền ra ngoài nếu bo tròn */
+}
+
+.ant-table-cell{
+    padding: 2px !important;
+}
+
+/*------------------------------------------*/
+.react-combo-boxes-combobox{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.react-combo-boxes-combobox__input{
+    width: 100%;
+}
+
+.react-combo-boxes-combobox__listbox{
+    /*background: #4899e1 !important;*/
+    /*width: 50%;*/
+    position: absolute;
+    z-index: 1000;
+}
+.react-combo-boxes-combobox__table{
+    background: #195d87;
+    border-radius: 5px;
+}
+
+.react-combo-boxes-combobox__table-row:hover .react-combo-boxes-combobox__table-cell{
+    background: #3b6bf4 !important;
+    cursor: pointer;
+}
+.react-combo-boxes-combobox__table-row{
+    /*border: 1px solid black;*/
+}
+.react-combo-boxes-combobox__table-cell{
+    background: #ffffff;
+    border: 1px solid #3b6bf4;
+    padding: 3px 10px;
+}
+/*th, td {*/
+/*    border: 1px solid #ccc;*/
+/*    text-align: left;*/
+/*    padding: 8px;*/
+/*    background: #f4f4f4;*/
+/*}*/
+
+/*th {*/
+/*    background: #c8cffd;*/
+/*    color: #0066cc;*/
+/*    padding: 15px;*/
+/*}*/
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.button-slidebar{
+    position: fixed;
+    top: 45%;
+    z-index: 1000;
+    background-color: rgba(109,161,255,0.47);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 30px;
+    height: 70px;
+    border: none;
+}
+/*-----------------------------------*/
+.ant-table-body > table{
+    /*border-collapse: unset;*/
+    border: unset;
+    /*border-left: 1px solid black;*/
+}
+.ant-table-container{
+    border: 1px solid #bfbdbd;
+}
+.ant-table-row:hover td{
+    background: #5182ff !important;
+}
+/*.ant-table-cell{*/
+/*    border-left: 1px solid black;*/
+/*    border-radius: unset;*/
+/*}*/

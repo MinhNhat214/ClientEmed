@@ -1,0 +1,30 @@
+.ant-modal.ToaThuocTaiCho{
+    max-width: 100% !important;
+}
+
+.ToaThuocTaiCho .ant-modal-header{ 
+    background: #e8e8e8 !important;
+    padding: 5px 10px;
+    height: auto !important;
+}
+.ToaThuocTaiCho  .ant-modal-title{
+    width: 100%;
+}
+.ToaThuocTaiCho  .btn-header{
+    float: right;
+}
+.ToaThuocTaiCho  .title-header{
+    float: left;
+}
+.ToaThuocTaiCho .checkthuoc{
+    margin-top: 10px;
+}
+.ToaThuocTaiCho .ant-form-item .ant-form-item-label >label::after {
+   margin-top: 8px;
+}
+.ToaThuocTaiCho .checkthuocdv{
+    padding-right: 20px;
+}
+.ToaThuocTaiCho .txtname{
+    margin-top: 10px;
+}

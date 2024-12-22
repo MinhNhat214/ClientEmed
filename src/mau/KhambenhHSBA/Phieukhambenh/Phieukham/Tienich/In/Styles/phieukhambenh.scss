@@ -1,0 +1,99 @@
+.inphieukhambenh{
+    padding: 15px;
+}
+.inphieukhambenh .title-phieukham{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.inphieukhambenh .thongtinbn .row-item{
+    display: inline-block;
+    width: 100%;
+    padding: 3px 0px;
+}
+.inphieukhambenh .thongtinbn .row-item .hoten{
+    float: left;
+    width: 60%;
+}
+.inphieukhambenh .thongtinbn .row-item .hoten span{
+    font-weight: bold;
+}
+.inphieukhambenh .thongtinbn .row-item .tuoi{
+    float: left;
+    width: 20%;
+}
+.inphieukhambenh .thongtinbn .row-item .gioitinh{
+    float: left;
+    width: 20%;
+}
+.inphieukhambenh .thongtinbn .row-item .mayte{
+    float: left;
+    width: 60%;
+}
+.inphieukhambenh .thongtinbn .row-item .doituong{
+    float: left;
+    width: 40%;
+}
+.inphieukhambenh  .row-pos{
+    position: relative;
+}
+.inphieukhambenh  .row-pos .pos-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40%;
+}
+.inphieukhambenh  .row-pos .pos-right .sos{
+    float: left;
+    width: 50%;
+}
+.inphieukhambenh .thongtinbn .row-item .phongkham span{
+    font-weight: bold;
+}
+.inphieukhambenh .donthuoc .title-donthuoc{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+.inphieukhambenh .donthuoc .item-thuoc {
+    border-bottom: 1px dashed #ccc;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul.item-top li{
+    float: left;
+    width: 15%;
+    font-weight: bold;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul.item-top li.tenthuoc{
+    width: 70%;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul.item-bottom li{
+    float: left;
+    width: 35%;
+    font-style: italic;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul.item-bottom li.chuthich{
+    width: 50%;
+}
+.inphieukhambenh .donthuoc .item-thuoc ul.item-bottom li.dvt{
+    width: 15%;
+}
+.inphieukhambenh .kyten{
+    float: right;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+.inphieukhambenh .kyten .bs{
+   font-weight: bold;
+   padding: 10px;
+}
+.inphieukhambenh .kyten .ngay, .inphieukhambenh .kyten .ky{
+    font-style: italic;
+ }

@@ -1,0 +1,18 @@
+.modal-input{
+    /*background: #0a53be;*/
+    height: 30px;
+    border-radius: unset;
+}
+.ant-select{
+    /*background: #0c4128;*/
+    height: 30px;
+}
+.modal-input-number{
+    /*background: #0a53be;*/
+    height: 30px;
+    width: 100%;
+    border-radius: unset;
+}
+.ant-col{
+    padding: 2px 0px;
+}

@@ -1,0 +1,133 @@
+.inphieudtri {
+    padding: 10px;
+}
+.inphieudtri .header{
+    width: 100%;
+    display: flex;
+}
+.inphieudtri .header .header-left{
+    float: left;
+    width: 25%;
+}
+.inphieudtri .header .header-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.inphieudtri .header .header-right{
+    float: left;
+    width: 25%;
+}
+.inphieudtri .thongtin-todieutri ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    font-size: 13px;
+}
+.inphieudtri .thongtin-todieutri ul li{
+    display: inline-block;
+    width: 100%;
+}
+.inphieudtri .thongtin-todieutri ul li div{
+    float: left;
+}
+.inphieudtri .thongtin-todieutri ul li div.hoten{
+    width: 60%;
+}
+.inphieudtri .thongtin-todieutri ul li div.tuoi{
+    width: 20%;
+}
+.inphieudtri .thongtin-todieutri ul li div.gioitinh{
+    width: 20%;
+}
+.inphieudtri .ketquatodieutri table{
+    width: 100%;
+}
+.inphieudtri .ketquatodieutri table th td{
+    border: 1px solid #ccc;
+    padding: 6px;
+    vertical-align:middle;
+    text-align: center;
+}
+.inphieudtri .ketquatodieutri .ngay{
+    width: 10%;
+}
+.inphieudtri .ketquatodieutri .giophut{
+    width: 10%;
+}
+.inphieudtri .ketquatodieutri .dienbienbenh{
+    width: 40%;
+}
+.inphieudtri .ketquatodieutri .ylenhdieutri{
+    width: 40%;
+}
+/*=============Phieu cong khai su dung thuoc ============*/
+@media print{  
+    @page {
+      size: A4 landscape;
+    }
+}
+.inphieucongkhaisudungthuoc {
+    padding: 10px;
+}
+.inphieucongkhaisudungthuoc .header{
+    width: 100%;
+    display: flex;
+}
+.inphieucongkhaisudungthuoc .header .header-left{
+    float: left;
+    width: 25%;
+}
+.inphieucongkhaisudungthuoc .header .header-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.inphieucongkhaisudungthuoc .header .header-right{
+    float: left;
+    width: 25%;
+}
+.inphieuinphieucongkhaisudungthuocdtri .thongtin-phieucongkhai ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    font-size: 13px;
+}
+.inphieucongkhaisudungthuoc .thongtin-phieucongkhai ul li{
+    display: inline-block;
+    width: 100%;
+}
+.inphieucongkhaisudungthuoc .thongtin-phieucongkhai ul li div{
+    float: left;
+}
+.inphieucongkhaisudungthuoc .thongtin-phieucongkhai ul li div.hoten{
+    width: 60%;
+}
+.inphieucongkhaisudungthuoc .thongtin-phieucongkhai ul li div.tuoi{
+    width: 20%;
+}
+.inphieucongkhaisudungthuoc .thongtin-phieucongkhai ul li div.gioitinh{
+    width: 20%;
+}
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai table{
+    width: 100%;
+}
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai table tr td{
+    border: 1px solid #ccc;
+    padding: 6px;
+    vertical-align:middle;
+    text-align: center;
+}
+/*
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai .ngay{
+    width: 10%;
+}
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai .giophut{
+    width: 10%;
+}
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai .dienbienbenh{
+    width: 40%;
+}
+.inphieucongkhaisudungthuoc .ketquathuoccongkhai .ylenhdieutri{
+    width: 40%;
+}*/
