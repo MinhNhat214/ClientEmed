@@ -8,7 +8,7 @@ const FetchDataComponent = () => {
   // Sử dụng useEffect để gọi API khi component được render
   useEffect(() => {
     // Địa chỉ API
-    const apiUrl = 'http://localhost:5000/api/users-with-roles'; // Thay đổi với URL API thực tế của bạn
+    const apiUrl = 'https://5d73-1-52-157-27.ngrok-free.app/api/get-all-roles'; // Thay đổi với URL API thực tế của bạn
     
     // Hàm gọi API
     const fetchData = async () => {
